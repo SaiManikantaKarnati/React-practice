@@ -1,0 +1,30 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "this is react practice from namaste react",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Manikanta",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiManikantaKarnati/React-practice.git"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SaiManikantaKarnati/React-practice/issues"
+  },
+  "homepage": "https://github.com/SaiManikantaKarnati/React-practice#readme",
+  "browserslist" : [
+    "last 10 versions"
+  ]
+}

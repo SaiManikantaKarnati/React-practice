@@ -1,15 +1,7 @@
-const heading = React.createElement(
-  'h1', 
-  {id : "heading"},
-  'Hello, World!'
-);
-
-console.log(heading);  //Returns an object
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const container = ReactDOM.createRoot(document.getElementById('container'));
-
-container.render(heading);
-
 /* If we have multiple children, then we need to write them in an array which gives array of children */
 
 
@@ -63,6 +55,5 @@ const parent = React.createElement(
 );
 
 console.log(parent);
-container.render(parent);
-
+container.render(parent); //Returns an object
 /* If we have multiple children, then we need to write them in an array which gives array of children */
